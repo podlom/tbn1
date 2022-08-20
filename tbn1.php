@@ -1,19 +1,19 @@
 <?php
 /*
- Plugin Name: Banners Network bn0
- Plugin URI: http://www.shkodenko.com
+ Plugin Name: Banners Network bn1
+ Plugin URI: https://blog.shkodenko.com.ua
  Description: Display banner using [show_bn lang=en] shortcode.
  Version: 1.0.0
  Author: Taras Shkodenko
- Author URI: http://www.shkodenko.com
- Created on 2016-12-20
+ Author URI: https://www.shkodenko.com
+ Created on 2022-08-21
  */
 
 
 class TaBn0Plugin {
 
 	/** @var string Banners Service Domain Name */
-	const BANNER_DOMAIN = 'bn0.linuxweb.in';
+	const BANNER_DOMAIN = 'bn1.shkodenko.com.ua';
 
 	public static function bnShort( $atts, $content = '' ) {
 		$lang = 'en';
